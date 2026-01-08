@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok , FaWhatsapp} from "react-icons/fa";
 import "./App.css";
 import logo from "./logo.png";
 function App() {
@@ -22,7 +22,20 @@ function App() {
            <div className="float">
           <FaFacebookF />
           </div>
+
         </a>
+          <a
+          href="https://wa.me/201102181616" 
+          target="_blank"
+          rel="noreferrer"
+          className="icon whatsapp"
+         style={{ transform: "rotate(260deg) translate(170px) rotate(-260deg)" }}
+        >
+           <div className="float">
+          <FaWhatsapp />
+          </div>
+        </a>
+        
 
         <a
           href="https://www.instagram.com/dahabnaturalroyal"
