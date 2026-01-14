@@ -12,6 +12,7 @@ function App() {
         </div>
 
         {/* Social Icons */}
+        
         <a
           href="https://web.facebook.com/sinai.oils"
           target="_blank"
@@ -25,7 +26,7 @@ function App() {
 
         </a>
           <a
-          href="https://wa.me/201102181616" 
+          href="https://wa.me/201096163365" 
           target="_blank"
           rel="noreferrer"
           className="icon whatsapp"
